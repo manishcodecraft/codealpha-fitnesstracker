@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Fitness Tracker App!"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/welcomeTextView"
+        android:textColor="#3F51B5"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set goals"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/welcomeTextView"
+        android:id="@+id/setGoalsButton"
+        android:layout_centerHorizontal="true"
+
+        android:padding="12dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add workout"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/setGoalsButton"
+        android:id="@+id/addWorkoutButton"
+        android:layout_centerHorizontal="true"
+
+        android:padding="12dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save progress"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/addWorkoutButton"
+        android:id="@+id/saveprogressButton"
+        android:layout_centerHorizontal="true"
+        android:padding="12dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view progress"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/saveprogressButton"
+        android:id="@+id/viewProgressButton"
+        android:layout_centerHorizontal="true"
+        android:padding="12dp"/>
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/viewProgressButton"
+        android:id="@+id/recordButton"
+        android:layout_centerHorizontal="true"
+        android:text="recorded workout"
+        android:padding="12dp"/>
+
+</RelativeLayout>

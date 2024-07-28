@@ -1,0 +1,14 @@
+<!-- res/layout/activity_record_workout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_view_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Workouts recorded  will be displayed here"
+        android:textSize="16sp" />
+</LinearLayout>

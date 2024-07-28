@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">fitnesstrackerproject</string>
+    <string name="set_goals">Set Goals</string>
+    <string name="add_workout">Add Workout</string>
+    <string name="save_progress">Save Progress</string>
+    <string name="view_progress">View Progress</string>
+    <string name="record_workout">Record Workout</string>
+</resources>
